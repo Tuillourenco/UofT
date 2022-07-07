@@ -1,5 +1,5 @@
 # Kickstarting with Excel
-
+### Excel file containing 4115 x 21 (rows/columns), with seven spreadsheets containing the results for the Kickstarter project.
 ## Overview of Project
 
 ### Purpose
