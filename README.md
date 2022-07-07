@@ -1,1 +1,1 @@
-# Repository for projects in Data Analysis Bootcamp of the University of Toronto.
+# Repository for projects in Data Analytics Bootcamp of the University of Toronto.
