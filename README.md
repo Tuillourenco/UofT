@@ -1,1 +1,1 @@
-# Repository for files produced in Data Analysis Bootcamp.
+# Repository for projects in Data Analysis Bootcamp of the University of Toronto.
