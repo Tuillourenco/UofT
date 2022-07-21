@@ -18,7 +18,7 @@ As the central project deliverable, the goal is to write a program that will be 
 - Diana Degette won the election with 272,892 votes which was 73.8% of the total votes.
 
 ## Election-Audit Summary: 
-##As a deliverable, the project team had an important achievement, making the code available to be reused for afterwards elections. The main advantage of Python is its capability to manipulate large amounts of data into built-in libraries.
-It's possible to use the same application replicating its code for posteriors audits, only by declaring new variables and reformulating existing "for" and "if" statements. The outcomes of the analysis must be exported to a txt format, making them available for regular users and increasing their experience. Besides that, we attached to this report an image showing the obtained results when the programmer runs the code, a fast way to check the code properties.
+### As a deliverable, the project team had an important achievement, making the code available to be reused for afterwards elections. The main advantage of Python is its capability to manipulate large amounts of data into built-in libraries.
+### It's possible to use the same application replicating its code for posteriors audits, only by declaring new variables and reformulating existing "for" and "if" statements. The outcomes of the analysis must be exported to a txt format, making them available for regular users and increasing their experience. Besides that, we attached to this report an image showing the obtained results when the programmer runs the code, a fast way to check the code properties.
 
 ![](Resources/election_analysis_result.png)
