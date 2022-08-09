@@ -1,0 +1,3 @@
+## Looking Ahead
+
+### In this module, it was addressed for the team with a project about data modelling, engineering, and analysis. Applying the knowledge of DataFrames and tabular data, it'll create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions. Databases are used everywhere—small and large businesses and even individuals working on personal projects—and SQL is one of the most widely used query languages. Its ability to organize and query data, especially on a large scale, makes SQL knowledge a highly sought-after skill in the workforce.
