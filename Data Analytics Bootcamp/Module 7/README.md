@@ -21,4 +21,4 @@
 
 ![](Images/fig_04.png)
 
-The project's outcome has shown the main stakeholders the importance of using information retained on the tables and manipulating them to foresee possible scenarios that may impact the company's future. While collaborators are retiring who could be mentors, the findings encountered plenty of employees who can help mentor the newcomers and use the lessons learned from previous projects, keeping the company's intel.
+### The project's outcome has shown the main stakeholders the importance of using information retained on the tables and manipulating them to foresee possible scenarios that may impact the company's future. While collaborators are retiring who could be mentors, the findings encountered plenty of employees who can help mentor the newcomers and use the lessons learned from previous projects, keeping the company's intel.
