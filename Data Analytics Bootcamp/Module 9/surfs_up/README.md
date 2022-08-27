@@ -6,14 +6,14 @@ The sponsor requested the project team analysis, describing more information abo
 ### Phase 1: Determine the Summary Statistics for June.
 At this stage, the team copes with the challenge of analyzing June's temperature averages. To reach that point, an active query is written to retrieve the June temperatures from the date column of the Measurement table; the temperatures are added to a list. The list of temperatures is converted to a Pandas DataFrame, and finally, Summary statistics are generated for the DataFrame.
 
-![](/june_temps.png)
+![](june_temps.png)
 
 Handling the data above, the table demonstrates that the weather usually offers decent south temperatures to open the store in June. However, this season will also be drier and warmer. To complete this analysis, it could be an excellent approach to studying the winds; besides the temperatures, it's a condition that calls the surfers to crowded the city.
 
 ### Phase 2: Determine the Summary Statistics for December.
 The team used the same approach for the previous stage, getting the following results described in the picture below:
 
-![](/december_temps.png)
+![](december_temps.png)
 
 The best time to surf, and consequently to open a store in Oahu, depends on the conditions you are looking for. December is the big surfing season on Oahu’s Shore, while temperatures consistently stabilize in the Hawaiian islands. There are also some winds and mellow south swells to be found on the south side of Oahu during this season.
 
