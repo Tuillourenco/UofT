@@ -8,13 +8,13 @@ As a deliverable, the web app is looking good and functioning well, and the team
 ### Projet Deliverables:
 
 Following up on the project scope, as described in the previous section, it was assigned to the team three main deliverables consisting of three technical analyses:
-    - Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles.
-    ![](Mission-to-Mars/images/report_img_01.png)
+- Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles.
+![](Mission-to-Mars/images/report_img_01.png)
 
-    - Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles.
-    ![](Mission-to-Mars/images/report_img_02.png)
+- Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles.
+![](Mission-to-Mars/images/report_img_02.png)
 
-    - Deliverable 3: Add Bootstrap 3 Components.
+- Deliverable 3: Add Bootstrap 3 Components.
 
 ### Conclusion
 
