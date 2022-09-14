@@ -17,7 +17,7 @@ Of course, after the results of the early stages, the next step was the add the 
 
 ### Summary:
 
-In summarizing, there was realized the necessity of some future adjustments and improvements regarding the drawbacks of the design and recommendations for further development. Chasing to take the challenge to a new stage, it's recommendable:
+In summarizing, there was realized the necessity of some future adjustments and improvements regarding the drawbacks of the design and recommendations for further development. After reviewing the app.js file, the filtered data wasn't working correctly when deploying the website for the first time; some adjustments were made to question 9. Chasing to take the challenge to a new stage, the team has recommended the following improvements:
 
 a) Drawbacks:
 - The filters don't provide auto-complete spellings, and when searching, the field is "case-sensitive," one aspect that is outdated and may cause unsatisfactory from the user-end.
