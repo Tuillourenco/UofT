@@ -1,49 +1,37 @@
-// Creating a Line chart
-//Plotly.newPlot("plotArea", [{x: [1, 2, 3], y: [10, 20, 30]}]);
-
-// Creating a Bar chart
-// var trace = {
-//     x: ["burrito", "pizza", "chicken"],
-//     y: [10, 18, 5],
-//     type: "bar"
-//  };
-
-// var layout = {
-//     title: "Luncheon Survey",
-//     xaxis: {title: "Food Option"},
-//     yaxis: {title: "Number of Respondents"}
-// };
-
-//  Plotly.newPlot("plotArea", [trace], layout);
-
-// var trace = {
-//     x: ["nonalcoholic beer", "nonalcoholic wine", "nonalcoholic martini", "nonalcoholic margarita", "ice tea", "nonalcoholic rum & coke", "nonalcoholic mai tai", "nonalcoholic gin & tonic"],
-//     y: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
-//     type: "bar"
-// };
-// var data = [trace];
-// var layout = {
-//     title: "'Bar' Chart",
-//     xaxis: {title: "Drinks"},
-//     yaxis: {title: "% of Drinks Ordered"}
-// };
-// Plotly.newPlot("plotArea", data, layout);
-
-// Crating a Pie chart
-var trace = {
-    labels: ["nonalcoholic beer", "nonalcoholic wine", "nonalcoholic martini", "nonalcoholic margarita",
-    "ice tea", "nonalcoholic rum & coke", "nonalcoholic mai tai", "nonalcoholic gin & tonic"],
-    values: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
-    type: 'pie'
-};
-var data = [trace];
-var layout = {
-    title: "'Pie' Chart",
-};
-
-Plotly.newPlot("plotArea", data, layout);
-
-var numbers = [1,2,3,4,5];
-var doubled = numbers.map(function(num){
-    return num * 2;
+// Sort the data array using the greekSearchResults value
+data.sort(function(a, b) {
+  return parseFloat(b.greekSearchResults) - parseFloat(a.greekSearchResults);
 });
+
+// Slice the first 10 objects for plotting
+data = data.slice(0, 10);
+
+// Reverse the array due to Plotly's defaults
+data = data.reverse();
+
+// Trace1 for the Greek Data
+var trace1 = {
+  x: data.map(row => row.greekSearchResults),
+  y: data.map(row => row.greekName),
+  text: data.map(row => row.greekName),
+  name: "Greek",
+  type: "bar",
+  orientation: "h"
+};
+
+// data
+var data = [trace1];
+
+// Apply the group bar mode to the layout
+var layout = {
+  title: "Greek gods search results",
+  margin: {
+    l: 100,
+    r: 100,
+    t: 100,
+    b: 100
+  }
+};
+
+// Render the plot to the div tag with id "plot"
+Plotly.newPlot("plot", data, layout);
