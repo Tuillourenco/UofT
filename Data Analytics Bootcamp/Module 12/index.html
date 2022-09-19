@@ -4,12 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Greek gods</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Bellybutton Biodiversity</title>
+    <!-- boostrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">    
 </head>
 <body>
-    <div id="plot"></div>
-    <script src="data.js"></script>
-    <script src="plots.js"></script>
+    <!-- start of dashboard -->
+    <div class="container">
+        <!-- start of nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg=dark">
+        <a class="navbar-brand" href="https://github.com/Tuillourenco/UofT/tree/main/Data%20Analytics%20Bootcamp/Module%2012">Link to GitHub Repository</a>
+      </nav>
+      <!-- jumbotron section -->
+      <section class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Belly Button Biodiversity Dashboard</h1>
+            <p>Use the interactive charts below to explore the dataset</p>
+          </div>          
+        </div>
+      </section>
+      <!-- Add more information about the project as a paragraph on the page. -->
+      <h4>The Dashboard's purpose is to investigate the sample data available, looking at the top 10 bacterial species for each belly button bacteria sample. The goal is to identify a potential bacteria candidate for improbable beef.</h4>
+      <!-- bar and gauge section -->
+      <section class="bar_and_gauge">
+        <div class="row">  
+          <!-- pulldown menu and metadata -->
+          <div class="col-md-3">  
+            <!-- pulldown menu -->
+            <div class="well">
+              <h5>Test Subject ID No.:</h5>
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>  
+            <!-- demographic info -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Demographic Info</h3>
+              </div>
+              <div id="sample-metadata" class="panel-body"></div>
+              <div class="panel footer">"WFREQ is used in the gauge to the right"</div>
+            </div>
+          </div>  
+          <!-- bar chart -->
+          <div class="col-md-5">
+            <div id="bar"></div>
+          </div>  
+          <!-- gauge chart -->
+          <div class="col-md-4">
+            <div id="gauge"></div>
+          </div>
+        </div>
+      </section>
+      <!-- bubble section -->
+      <section class="bubble_chart">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bubble"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--links to js and d3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/js/charts.js"></script>
 </body>
 </html>

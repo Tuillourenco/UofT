@@ -1,0 +1,14 @@
+body {
+    color: black;
+  }
+
+h4 {
+  font-weight: bold;
+}
+
+  .jumbotron {
+    background-image: url("../../static/images/bacteriaFractal.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+  }
