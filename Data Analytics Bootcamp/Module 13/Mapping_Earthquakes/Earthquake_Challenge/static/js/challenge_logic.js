@@ -225,7 +225,7 @@ legend.onAdd = function() {
     L.geoJSON(data, {
       // Style the lines with a color and weight that will make it stand out on all maps
       style: {
-      color: "blue",
+      color: "#DD571C",
       weight: 2
     }
   })
