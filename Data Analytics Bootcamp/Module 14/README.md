@@ -8,15 +8,15 @@ As the main deliverable, the analysis scrutiny many variables such as trip durat
 ### Project Deliverables
 Dashboards as a result of the analysis: The first one demonstrates the historical data usage of bikes in NY city, describing the number of trips, peak hours, and distribution over the city. Starting with the title at the top left, continuing a bar graph showing the hours with high demand, and finalizing the slide with the locations highlighting the areas of concentration marked. let's see the picture below:
 
-![](resources/images/pic_01.png)
+![](bikesharing/resources/images/pic_01.png)
 
 In the second slide, the team worked on describing the customer, filtering by gender but studying the aspects of the trip, such as demands related to weekdays and hours of each of them as characteristics.
 
-![](resources/images/pic_02.png)
+![](bikesharing/resources/images/pic_02.png)
 
 Last but not least, the graph demonstrates the trip duration filtered by gender, focusing on the time each of them keeps using the service, providing a better comprehension of where the company must target its marketing purposes.
 
-![](resources/images/pic_03.png)
+![](bikesharing/resources/images/pic_03.png)
 
 ### Summary:
 In summary, the project demonstrates that bike rentals in New York, precisely in August of 2019, had a strong performance with over two million rentals. Of course, it was observed that most of the rentals occurred during the weekdays and reached their peak around the regular commute period. This is an essential aspect due to the company's willingness to generate more profit, and the needing for transportation during predictable times yields predictable check-in and revenue. In addition, it is also interesting to note the demographic demand is largely subscriber-based, reaching fidelity customers.
