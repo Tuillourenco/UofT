@@ -43,3 +43,11 @@ Continuing the data set studies, the analysts' team reached a result that the PS
 ![](MechaCar_Statistical_Analysis/images/deliverable_03.png)
 
 As demonstrated by the outcomes in the picture above, the behaviour of the samples allows the analysts to deny or accept the null hypothesis. For that purpose, all data sets assumed the significance level as 0.05 percent.
+
+### Design a Study Comparing the MechaCar to the Competition.
+In conclusion, Using R as a tool, this statistical study compares the performance of the MechaCar vehicles against the implementation of cars from other manufacturers. Handling the data set given, the need for more data related to previous years and similar models of other manufacturers was observed for the data exploration.
+The statistical study design answers some questions, following the path:
+- A tested metric is to be mentioned. Scrutinizing a possible demand (quantity of sales) for the new model, a manufacturer should consider considerate specific characteristics such as cost, colour, safety types of equipment, fuel efficiency, engine size, and type of fuel (Nowadays, it is highly recommended hybrid system) and last, the body type (SUV, sedans, and so on).
+- Some variables were proposed to predict demand for a new model release by describing a null or alternative hypothesis. For instance, Null Hypothesis (H0), the slope of the multiple linear models is zero (m = 0). In the alternative hypothesis (Ha), the slope of multiple linear models is different from zero (m ≠ 0).
+- A statistical test was used to test the hypothesis; the analysts estimated a linear regression handling two or more independent variables. This method allows the team to review each independent variable to determine the existence of a relationship with the dependent variable.
+- For the statistical test data, regarding statistical significance, an aleatory sample of at least 30 individual data for MechaCar and their competitor is requested. Otherwise, the model would lack importance for the study.
