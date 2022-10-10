@@ -38,3 +38,8 @@ Analyzing this deliverable's result, the team concluded that the variance of the
 Therefore, the picture above helps to respond to the question placed by the upper management whether the current manufacturing data meet the design specification (the suspension coils must not exceed 100 pounds per square inch) for all manufacturing lots in total and each lot individually. Comparing the summary data for all three lots demonstrates that the variance is 62.3 pounds per inch, below the specified value. However, Lot 3 is clearly above the specifications.
 
 ### T-Test on Suspension Coils.
+Continuing the data set studies, the analysts' team reached a result that the PSI throughout Lot 3 is statistically distinct from the population mean, as shown by the data above, where Lot3's p-value is less than 0.05 percent. Therefore, the null hypothesis can be rejected. On the other hand, because Lots 1 and 2 both have p-values over the significance level, it's impossible to deny the null hypothesis. In conclusion, there hasn't been any significant difference between Lots 1 and 2, reaching the population mean. 
+
+![](MechaCar_Statistical_Analysis/images/deliverable_03.png)
+
+As demonstrated by the outcomes in the picture above, the behaviour of the samples allows the analysts to deny or accept the null hypothesis. For that purpose, all data sets assumed the significance level as 0.05 percent.
