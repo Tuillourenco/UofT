@@ -31,3 +31,10 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 - When executing a multiple linear regression model, the r-squared value results in 0.7149, meaning that 71% of the variability (miles per gallon - mpg) is directly related to using it. Although the analysis is suitable for predicting the given dataset, the lack of significant variables is evidence of overfitting. The model performs well with a current dataset but fails to generalize and predict future data correctly.
 
 ### Summary Statistics on Suspension Coils.
+Analyzing this deliverable's result, the team concluded that the variance of the suspension coils must not exceed 100 pounds per square inch, respecting the design specifications for the MechaCar suspension coils. However, there was a discrepancy for Lot 3, a variance of 170, which is much higher than the design specification's limit of 100 psi; lots 1 and 2 all satisfy the design specifications.
+
+![](MechaCar_Statistical_Analysis/images/deliverable_02.png)
+
+Therefore, the picture above helps to respond to the question placed by the upper management whether the current manufacturing data meet the design specification (the suspension coils must not exceed 100 pounds per square inch) for all manufacturing lots in total and each lot individually. Comparing the summary data for all three lots demonstrates that the variance is 62.3 pounds per inch, below the specified value. However, Lot 3 is clearly above the specifications.
+
+### T-Test on Suspension Coils.
