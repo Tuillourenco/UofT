@@ -19,7 +19,7 @@ This new project consists of three technical analysis deliverables and a proposa
 ### Linear Regression to Predict MPG
 For this deliverable, it is necessary to fulfill some parameters to respond to the three questions below and help the understand the method of evaluation; as shown in the attached picture:
 
-![](images/deliverable_01.png)
+![](MechaCar_Statistical_Analysis/images/deliverable_01.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - In this question, the best approach to respond is in the results,  three variables that behave with a non-random amount of variance: the intercept, the vehicle length and ground clearance; they demonstrate that there has been a smaller p-value; being direct, it is statistically significant. Opposite, the rest of the variables are not statistically significant; if there were the possibility of getting more data, the model would change or skip these variables to help its efficiency.
