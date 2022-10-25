@@ -1,0 +1,2 @@
+## Project Description.
+The stakeholders are convinced that unsupervised learning is the best way forward for the dataset because the team is looking for any groupings, trends, or other information that could help the company pitch cryptocurrencies. In this approach, the input data already has a paired outcome, plugged in to train the model to predict outcomes in new datasets. For example, if it's wanted to build a model that, when given unfamiliar data, can accurately predict the results.
